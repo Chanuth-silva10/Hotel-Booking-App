@@ -4,7 +4,8 @@
   "description": "Hotel management system backend api ",
   "main": "./src/index.ts",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "build": "npm install"
   },
   "author": "chanuth silva",
   "license": "ISC",
