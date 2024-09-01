@@ -14,6 +14,14 @@ const App = () => {
           <p>Home</p>
         </Layout>} />
         <Route path="*" element={<Navigate to="/" />} />
+        <Route
+          path="/search"
+          element={
+            <Layout>
+             <p>Search page</p>
+            </Layout>
+          }
+        />
       </Routes>
     </Router>
   );
