@@ -80,7 +80,7 @@ const ManageHotelForm = ({ onSave, isLoading, hotel }: Props) => {
           <button
             disabled={isLoading}
             type="submit"
-            className="bg-blue-600 text-white p-2 font-bold hover:bg-blue-500 text-xl disabled:bg-gray-500"
+            className="bg-customBgLow py-2 px-6 rounded text-white p-2 font-bold hover:bg-customBgBtn text-xl disabled:bg-gray-500"
           >
             {isLoading ? "Saving..." : "Save"}
           </button>
@@ -89,5 +89,5 @@ const ManageHotelForm = ({ onSave, isLoading, hotel }: Props) => {
     </FormProvider>
   );
 };
-
+// bg-customBgLow items-center text-white py-2 px-6 rounded font-bold hover:bg-customBgBtn text-xl
 export default ManageHotelForm;
